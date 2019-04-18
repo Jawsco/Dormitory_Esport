@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">기숙사 체육대회 관리 시스템</string>
+    <string name="top">탑</string>
+    <string name="jungle">정글</string>
+    <string name="mid">미드</string>
+    <string name="bottom">원딜</string>
+    <string name="support">서폿</string>
+    <string name="line">Line</string>
+    <string name="championImage">챔피언 사진</string>
+
+</resources>
