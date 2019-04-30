@@ -1,10 +1,13 @@
-package com.example.myapplication;
+package com.example.Esport.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
+
+import com.example.Esport.LOL.Activity.LOLActivity;
+import com.example.Esport.R;
 
 
 /*
@@ -19,7 +22,7 @@ public class MainActivity extends AppCompatActivity
     ImageButton LOLButton;
     ImageButton OverwatchButton;
     ImageButton RSButton;
-    ImageButton SCButton;
+    ImageButton TournamentButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -30,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         LOLButton = findViewById(R.id.LOLButton);
         OverwatchButton = findViewById(R.id.OverwatchButton);
         RSButton = findViewById(R.id.RSButton);
-        SCButton = findViewById(R.id.SCButton);
+        TournamentButton = findViewById(R.id.TournamentButton);
 
         LOLButton.setOnClickListener(new View.OnClickListener()
         {
@@ -62,12 +65,12 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        SCButton.setOnClickListener(new View.OnClickListener()
+        TournamentButton.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(MainActivity.this, SCActivity.class);
+                Intent intent = new Intent(MainActivity.this, TournamentActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="class_group">
+        <item>1-1</item>
+        <item>1-2</item>
+        <item>1-3</item>
+        <item>2-1</item>
+        <item>2-2</item>
+        <item>2-3</item>
+        <item>3-1</item>
+        <item>3-2</item>
+        <item>3-3</item>
+    </string-array>
+
+    <string-array name="r6_group">
+        <item>Team1</item>
+        <item>Team2</item>
+        <item>Team3</item>
+        <item>Team4</item>
+    </string-array>
+</resources>

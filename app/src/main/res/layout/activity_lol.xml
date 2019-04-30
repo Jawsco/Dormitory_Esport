@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LOLActivity">
+    tools:context=".LOL.Activity.LOLActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -294,15 +294,26 @@
                 app:srcCompat="@mipmap/ic_launcher" />
         </LinearLayout>
 
-        <EditText
-            android:id="@+id/editText3"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:ems="10"
-            android:hint="Key Value(Int)"
-            android:inputType="textPersonName"
-            android:textSize="20sp" />
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/class_group" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:entries="@array/class_group" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/button2"

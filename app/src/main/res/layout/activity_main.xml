@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <TextView
         android:id="@+id/title"
@@ -68,7 +68,7 @@
             app:srcCompat="@drawable/rainbow_six_siege" />
 
         <ImageButton
-            android:id="@+id/SCButton"
+            android:id="@+id/TournamentButton"
             android:layout_width="30sp"
             android:layout_height="120sp"
             android:layout_gravity="center"
@@ -76,7 +76,7 @@
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/starcraft" />
+            app:srcCompat="@drawable/tournament" />
     </LinearLayout>
 
 </LinearLayout>

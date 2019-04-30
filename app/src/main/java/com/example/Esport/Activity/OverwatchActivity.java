@@ -1,15 +1,17 @@
-package com.example.myapplication;
+package com.example.Esport.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class RSActivity extends AppCompatActivity
+import com.example.Esport.R;
+
+public class OverwatchActivity extends AppCompatActivity
 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rs);
+        setContentView(R.layout.activity_overwatch);
     }
 }

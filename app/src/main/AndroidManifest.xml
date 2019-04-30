@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="com.example.Esport">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,18 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SCActivity"></activity>
-        <activity android:name=".RSActivity" />
-        <activity android:name=".OverwatchActivity" />
-        <activity android:name=".LOLActivity" />
-        <activity android:name=".Intro">
+        <activity android:name=".Activity.TournamentActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.RSActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.OverwatchActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".LOL.Activity.LOLActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.Intro" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Activity.MainActivity" android:screenOrientation="portrait" />
     </application>
 
 </manifest>

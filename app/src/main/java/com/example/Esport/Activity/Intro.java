@@ -1,10 +1,11 @@
-package com.example.myapplication;
+package com.example.Esport.Activity;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.Esport.R;
 /*
  * Intro 화면
  */
@@ -28,6 +29,6 @@ public class Intro extends AppCompatActivity
                 startActivity(intent);
                 finish();
             }
-        }, 500);
+        }, 300);
     }
 }
